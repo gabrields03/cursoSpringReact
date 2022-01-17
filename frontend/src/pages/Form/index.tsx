@@ -1,7 +1,7 @@
 import FormCard from "components/FormCard";
 import { useParams } from "react-router-dom";
 
-export default function Form() {
+function Form() {
 
     const params = useParams();
 
@@ -9,3 +9,4 @@ export default function Form() {
        <FormCard movieId={`${params.movieId}`} />
     );
 }
+export default Form;
