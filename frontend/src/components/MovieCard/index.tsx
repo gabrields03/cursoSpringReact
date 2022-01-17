@@ -6,6 +6,7 @@ type Props = {
     movie: Movie;
 }
 
+
 export default function MovieCard( { movie } : Props) {
 
     return (
